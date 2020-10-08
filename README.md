@@ -48,7 +48,7 @@ bottom_schools.head()
 Thomas High School remained the second best performing school despite the removal of ninth grade values from calculation. However, the percentage of students who were passing reading and math dropped from 90.95% to 90.63%. **Figure 5** shows the top 5 schools before the changes and **Figure 6** shows the top 5 schools after the changes. 
 
 ### Figure 5
-![](Images/Top_5_Schools_before.png)
+
 
 ### Figure 6
 ![](Images/Top_5_Schools_After.png)

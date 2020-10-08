@@ -35,4 +35,17 @@ Removing the math and reading scores of Thomas High School ninth graders also sl
 
 ### Thomas High School Comparative Performance
 
+To compare all of the high schools in the district, the school summary data was used to create two data sets- the top 5 schools and the bottom 5 schools. These schools were ranked by the percentage of students who were passing both math and reading, and is listed in the dataframe as "% Overall Passing". The code for ranking the top 5 and bottom 5 schools used was:
+```
+# Sort and show top five schools.
+top_schools = per_school_summary_df.sort_values(["% Overall Passing"], ascending=False)
+top_schools.head()
+
+# Sort and show bottom five schools.
+bottom_schools = per_school_summary_df.sort_values(["% Overall Passing"])
+bottom_schools.head()
+```
+Thomas High School remained the second best performing school despite the removal of ninth grade values from calculation. However, the percentage of students who were passing reading and math dropped from 90.95% to 90.63%. **Figure 5** shows the top 5 schools before the changes and **Figure 6** shows the top 5 schools after the changes. 
+
+### Figure 5
 

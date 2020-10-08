@@ -23,3 +23,10 @@ The district summary was slightly affected by the removal of Thomas High School'
 ### Figure 2
 ![](Images/District_Summary_After.png)
 
+### School Summary
+
+Removing the math and reading scores of Thomas High School ninth graders also slightly affected the school summary data set. All of the testing metrics decreased except for the average math score, which increased. This could be caused by the cheating students having a key with incorrect answers to the math section of the exam, or they only cheated on the reading section. **Figure 3** shows Thomas High School's summary statistics before the changes and **Figure 4** shows Thomas High School's summary statistics after the changes. 
+
+### Figure 3
+
+

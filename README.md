@@ -79,4 +79,4 @@ Replacing the ninth grade students' test scores at Thomas High School had varyin
   
 ## Summary
 
-In conclusion, there were various changes that resulted in the second analysis that excluded the academically dishonest scores from ninth grade students at Thomas High School. 
+In conclusion, there were various changes that resulted in the second analysis that excluded the academically dishonest scores from ninth grade students at Thomas High School. The first change in the data worth noting is that the district summary scores all decreased except for the average reading score. This means that the removal of ninth grade students at Thomas High School negatively affected the overall district performance. Second, 

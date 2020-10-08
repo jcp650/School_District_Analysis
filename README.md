@@ -30,3 +30,7 @@ Removing the math and reading scores of Thomas High School ninth graders also sl
 ### Figure 3
 
 
+### Figure 4
+
+
+

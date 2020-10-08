@@ -17,4 +17,9 @@ Below will be a discussion of changes made to the analysis as well as how these 
 
 The district summary was slightly affected by the removal of Thomas High School's ninth grade test scores. All of the metrics decreased except for the average reading score. **Figure** 1 shows the district summary before removing the Thomas High School ninth grade scores, and **Figure 2** shows the district summary after removing the scores.
 
+### Figure 1
+![](Images/District_Summary_Before.png)
+
+### Figure 2
+![](Images/District_Summary_After.png)
 

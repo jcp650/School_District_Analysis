@@ -59,11 +59,11 @@ Replacing the ninth grade students' test scores at Thomas High School had varyin
 
 - The average math scores for ninth grade students at Thomas High School changed from 83.6 to NaN.
 
-  - The average math scores for Thomas High School only included grades 10 through 12. 
+  - The average math scores for Thomas High School only include grades 10 through 12.
   
 - The average reading score for ninth grade students at Thomas High School changed from 83.7 to NaN.
 
-  - The average reading scores for Thomas High School only included grades 10 through 12.
+  - The average reading scores for Thomas High School only include grades 10 through 12.
 
 - The scores by school spending did not change.
 

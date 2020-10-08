@@ -79,4 +79,4 @@ Replacing the ninth grade students' test scores at Thomas High School had varyin
   
 ## Summary
 
-
+In conclusion, there were various changes that resulted in the second analysis that excluded the academically dishonest scores from ninth grade students at Thomas High School. 

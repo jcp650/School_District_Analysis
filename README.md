@@ -55,3 +55,28 @@ Thomas High School remained the second best performing school despite the remova
 
 ### Affects of Replacing Test Score Data
 
+Replacing the ninth grade students' test scores at Thomas High School had varying affects on the data analysis:
+
+- The average math scores for ninth grade students at Thomas High School changed from 83.6 to NaN.
+
+  - The average math scores for Thomas High School only included grades 10 through 12. 
+  
+- The average reading score for ninth grade students at Thomas High School changed from 83.7 to NaN.
+
+  - The average reading scores for Thomas High School only included grades 10 through 12.
+
+- The scores by school spending did not change.
+
+  - When grouping the schools by spending per student, the removal of ninth grade students at Thomas High School did not significantly affect the calculation.
+  
+- The scores by school size did not change.
+
+  - When grouping the schools by size, the removal of ninth grade students at Thomas High School did not signifcantly affect the calculation. 
+  
+- The scores by school type did not change.
+
+  - When grouping the schools by size, the removal of ninth grade students at Thoms High School did not signifacntly affect the calculation. 
+  
+## Summary
+
+

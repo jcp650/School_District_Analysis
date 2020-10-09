@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project was tasked by the Chief Data Scientest for a school district for the purpose of analyzing standardized testing data in relation to school size, type and funding. The results of this analysis are designed to reveal trends and patterns that can inform the School Board and District Superintendents about budget decisions at the district and school levels. Specifically, the relationship between standardized test performance and school budget, size and type will advise future budgeting decisions to ensure all students have the same level of support necessary to succeed.
+This project was tasked by the Chief Data Scientest of a school district for the purpose of analyzing standardized testing data in relation to school size, type and funding. The results of this analysis are designed to reveal trends and patterns that can inform the School Board and District Superintendents about budget decisions at the district and school levels. Specifically, the relationship between standardized test performance and school budget, size and type will advise future budgeting decisions to ensure all students have the same level of support necessary to succeed.
 
 ## Results
 
@@ -25,7 +25,7 @@ The district summary was slightly affected by the removal of Thomas High School'
 
 ### School Summary
 
-Removing the math and reading scores of Thomas High School ninth graders also slightly affected the school summary data set. All of the testing metrics decreased except for the average reading score, which increased. This could be caused by the cheating students having a key with incorrect answers to the reading section of the exam, or they only cheated on the math section. **Figure 3** shows Thomas High School's summary statistics before the changes and **Figure 4** shows Thomas High School's summary statistics after the changes. 
+Removing the math and reading scores of Thomas High School ninth graders also slightly affected the school summary data set. All of the testing metrics decreased except for the average reading score, which increased. This could be caused by the cheating students having a key with incorrect answers to the reading section of the exam; or they only cheated on the math section. **Figure 3** shows Thomas High School's summary statistics before the changes and **Figure 4** shows Thomas High School's summary statistics after the changes. 
 
 ### Figure 3
 ![](Images/School_Summary_Before.png)
@@ -45,7 +45,7 @@ top_schools.head()
 bottom_schools = per_school_summary_df.sort_values(["% Overall Passing"])
 bottom_schools.head()
 ```
-Thomas High School remained the second best performing school despite the removal of ninth grade values from calculation. However, the percentage of students who were passing reading and math dropped from 90.95% to 90.63%. **Figure 5** shows the top 5 schools before the changes and **Figure 6** shows the top 5 schools after the changes. 
+Thomas High School remained the second best performing school despite the removal of ninth grade test scores from calculation. However, the percentage of students who were passing reading and math dropped from 90.95% to 90.63%. **Figure 5** shows the top 5 schools before the changes and **Figure 6** shows the top 5 schools after the changes. 
 
 ### Figure 5
 ![](Images/Top_5_Schools_Before.png)
@@ -75,8 +75,8 @@ Replacing the ninth grade students' test scores at Thomas High School had varyin
   
 - The scores by school type did not change.
 
-  - When grouping the schools by size, the removal of ninth grade students at Thoms High School did not signifacntly affect the calculation. 
+  - When grouping the schools by size, the removal of ninth grade students at Thoms High School did not significantly affect the calculation. 
   
 ## Summary
 
-In conclusion, there were various changes that resulted in the second analysis that excluded the academically dishonest scores from ninth grade students at Thomas High School. The first change in the data worth noting is that the district summary scores all decreased except for the average reading score. This means that the exclusion of the ninth grade students' scores at Thomas High School negatively affected the overall district performance. Second, the overall passing percentage of the Thomas High School slightly decreased when the cheating students were excluded from calculation. Specifically, the overall passing percentage fell approximately 0.3%. Third, the average reading score actually increased after removing scores from the ninth grade students at Thomas High School. However, every other performance metric for Thomas High School decreased, which caused the overall passing percentage to decrease. Fourth and finally, the math and reading scores for Thomas High School only included 10th through 12th grade students, which does not accurately represent the performance of students at Thomas High School. Had the ninth grade students not cheated on their tests, the ninth grade students would have been included in the analysis which would therefore provide the complete scope of test performance at Thomas High School.
+In conclusion, there were various changes that resulted in the second analysis from excluding the academically dishonest scores from ninth grade students at Thomas High School. The first change in the data worth noting is that the district summary scores all decreased except for the average reading score. This means that the exclusion of the ninth grade students' scores at Thomas High School negatively affected the overall district performance. Second, the overall passing percentage of the Thomas High School slightly decreased when the cheating students were excluded from calculation. Specifically, the overall passing percentage fell approximately 0.3%. Third, the average reading score actually increased after removing scores from the ninth grade students at Thomas High School. However, every other performance metric for Thomas High School decreased, which caused the overall passing percentage to decrease. Fourth and finally, the math and reading scores for Thomas High School only included 10th through 12th grade students, which does not accurately represent the performance of students at Thomas High School. Had the ninth grade students not cheated on their tests, the ninth grade students would have been included in the analysis which would therefore provide the complete scope of test performance at Thomas High School.
